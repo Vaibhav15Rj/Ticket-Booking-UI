@@ -1,0 +1,214 @@
+@media (max-width: 1250px) 
+{
+    #navbar ul li{
+        padding: 8px;
+    }
+    #navbar ul li a{
+        padding: 2px 18px;
+        font-size: 20px;
+    }
+}
+@media (max-width: 1045px) 
+{   #navbar ul li{
+        padding: 1px 6px;
+    }
+    #navbar ul li a{
+        padding: 2px 15px;
+        font-size: 18px;
+    }
+    #logo {
+        margin-right: 5px;
+        margin-left: 3px;
+        margin-top: 1px;
+    }
+    #logo img {
+        height: 67px;
+        margin: 1px 2px 0px 2px;
+    }
+    #home p{
+        font-size: 1.4rem;
+    }   
+    #services {
+        margin: 18px;
+    }
+    
+    #services .box p {
+        font-size: 13px;
+    }
+    #home::before{
+        background: url('travelling.jpg') no-repeat center center/cover;
+    }   
+    .h-primary{
+        font-size: 2.5rem;
+        padding: 10px;
+    }
+    .h-secondary {
+        font-size: 1.6rem;
+        padding: 2px;
+    }
+    .btn{
+        height: 40px;
+        font-size: 1.2rem;
+    }
+    .clients{
+        flex-wrap: wrap;
+    }
+    .clients img {
+        height: 100px;
+        width: 100px;
+        margin: 12px;
+    }
+}
+@media (max-width:820px) 
+{   #navbar{
+        flex-direction: column;
+    }
+    #navbar::before {
+        height: 110%;
+    }
+    #navbar ul li{
+        padding: 2px 6px;
+    }
+    #navbar ul li a{
+        padding: 2px 15px;
+        font-size: 1rem;
+    }
+    #logo {
+        margin-bottom: 6px;
+        margin-top: 1px;
+    }
+    #logo img {
+        height: 50px;
+        margin: 1px 0px 0px 0px;
+    }
+    #home {
+        padding: 0px;
+        height: 640px;
+    }
+    #home::before{
+        background: url('travelling.jpg') no-repeat center center/cover;
+    }
+    #home p{
+        font-size: 1.4rem;
+    }
+    #services-container{
+        margin: auto;
+        width: 80vw;
+    }   
+    #services {
+        margin: 18px;
+        flex-direction: column;
+    }
+    #services .box p {
+        font-size: 13px;
+    }
+    #home::before{
+        height: 97%;
+    }   
+    .h-primary{
+        font-size: 2.5rem;
+        padding: 10px;
+    }
+    .h-secondary {
+        font-size: 1.6rem;
+        padding: 2px;
+    }
+    /* #client-section {
+        height: 290px;
+    } */
+    .clients img {
+        height: 100px;
+        width: 100px;
+        margin: 12px;
+    }
+    .btn{
+        height: 40px;
+        font-size: 1.2rem;
+    }
+}
+@media (max-width: 570px)
+{
+    #navbar{
+        flex-direction: column;
+    }
+    #navbar::before {
+        height: 115%;
+    }
+    #navbar ul{
+        flex-wrap: nowrap;
+             
+    }
+    #navbar ul li{
+        padding: 5px 3px;
+    }
+    #navbar ul li a{
+        padding: 0px 7px;
+        font-size: 1rem;
+        border-radius: 20px;
+    }
+    .nope{
+        display: none;
+    }
+    #logo {
+        margin-bottom: 6px;
+        margin-top: 1px;
+    }
+    #logo img {
+        height: 50px;
+        margin: 1px 0px 0px 0px;
+    }
+    #home {
+        padding: 0px;
+        height: 47rem;
+    }
+    #home::before{
+        background: url('travelling.jpg') no-repeat center center/cover;
+    }
+    #home p{
+        font-size: 1.4rem;
+    }   
+    #services-container{
+        margin: auto;
+        width: 85vw;
+    }   
+    #services {
+        margin: 20px;
+        flex-direction: column;
+    }
+    #services .box p {
+        font-size: 13px;
+    }
+    #home::before{
+        height: 100%;
+    }
+    #contact-box{
+        padding-bottom: 20px;
+    }   
+    #contact-box label{
+        font-size: 1.2rem;
+        font-family: 'Bree serif', serif;
+    }
+    #contact-box form{
+        width: 60%;
+    }
+    .h-primary{
+        font-size: 2.5rem;
+        padding: 10px;
+    }
+    .h-secondary {
+        font-size: 1.6rem;
+        padding: 2px;
+    }
+    .clients{
+        flex-wrap: wrap;
+    }
+    .clients img {
+        height: 100px;
+        width: 100px;
+        margin: 12px;
+    }
+    .btn{
+        height: 40px;
+        font-size: 1.2rem;
+    }
+}
